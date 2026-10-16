@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AppsHidder - Política de privacidad</title>
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;max-width:760px;margin:0 auto;padding:24px 18px;color:#1b1d2a;background:#fff}
+  h1{font-size:1.7rem;margin-bottom:.2em}
+  h2{font-size:1.2rem;margin-top:1.8em}
+  .meta{color:#5b5f73;font-size:.9rem}
+  a{color:#2b4bff}
+  ul{padding-left:1.2em}
+  @media (prefers-color-scheme: dark){body{background:#14151f;color:#e8e9f1}a{color:#8ea0ff}.meta{color:#9ea3b8}}
+</style>
+</head>
+<body>
+<h1>Política de privacidad de AppsHidder</h1>
+<p class="meta">Última actualización: 16 de octubre de 2026 · Responsable: Angel Emmanuel Flores Muñoz · Contacto: <a href="mailto:flooddesarrollo@gmail.com">flooddesarrollo@gmail.com</a></p>
+
+<p>AppsHidder es una app para iPhone y Android que bloquea las apps que tú elijas detrás de un PIN o de tu huella / Face ID. Esta política explica qué información usa la app y qué no.</p>
+
+<h2>Resumen</h2>
+<ul>
+  <li>AppsHidder <strong>no tiene cuentas, servidores ni nube</strong>. No podemos ver tu PIN ni qué apps proteges.</li>
+  <li>Todo lo que configuras se guarda <strong>solo en tu dispositivo</strong> y se elimina al borrar la app.</li>
+  <li>En <strong>iPhone</strong> la app no muestra anuncios, no usa analíticas y no se conecta a internet.</li>
+  <li>En <strong>Android</strong> la app muestra un banner de anuncios de Google AdMob (ver más abajo).</li>
+</ul>
+
+<h2>Información que se guarda en tu dispositivo</h2>
+<ul>
+  <li><strong>Tu PIN:</strong> se guarda como un valor cifrado irreversible (hash con sal), nunca en texto plano. Si lo olvidas no se puede recuperar.</li>
+  <li><strong>La lista de apps protegidas</strong> y tus ajustes (por ejemplo, el tiempo de desbloqueo y si usas Face ID o huella).</li>
+</ul>
+<p>Esta información no sale de tu dispositivo ni se comparte con nadie.</p>
+
+<h2>iPhone: Tiempo en pantalla (Family Controls)</h2>
+<p>Para bloquear apps, AppsHidder usa la función de Tiempo en pantalla de Apple (framework Family Controls) en modo individual. Apple te pide autorización al abrir la app. AppsHidder la usa únicamente para que tú controles el uso de las apps de tu propio dispositivo. Apple entrega a la app referencias opacas (tokens) de las apps que eliges; AppsHidder no puede leer sus nombres ni su contenido, no recopila datos de uso y no los comparte. No se usa para vigilar a otras personas ni para gestionar el dispositivo de otro adulto.</p>
+<p>La app también pide permiso para mostrar <strong>notificaciones</strong>, que solo se usan para devolverte a AppsHidder cuando tocas "Desbloquear" en el aviso de una app bloqueada. Face ID se usa localmente para confirmar que eres tú; la app nunca accede a tus datos biométricos.</p>
+
+<h2>Android: servicio de Accesibilidad</h2>
+<p>AppsHidder usa el servicio de Accesibilidad de Android (AccessibilityService API) para detectar qué app pasa a primer plano y mostrarte la pantalla de PIN antes de dejarte entrar a las apps que protegiste. Solo usa el <strong>nombre del paquete</strong> de la app que se abre. No lee ni guarda lo que aparece en tu pantalla, tus mensajes, contraseñas ni datos personales, y no realiza acciones en tu nombre. La información obtenida con este servicio no sale de tu dispositivo ni se comparte con nadie. La app te pide tu consentimiento dentro de la app antes de solicitar el permiso, y puedes desactivarlo cuando quieras en Ajustes &gt; Accesibilidad.</p>
+<p>Para que puedas elegir qué proteger, la app consulta la lista de apps instaladas en tu dispositivo (permiso QUERY_ALL_PACKAGES). Esa lista no se envía a ningún servidor.</p>
+
+<h2>Android: anuncios (Google AdMob)</h2>
+<p>La versión de Android muestra un banner de anuncios de Google AdMob en la pantalla principal y en Ajustes (nunca en la pantalla de PIN). AdMob, que es un servicio de Google, puede recopilar y usar identificadores del dispositivo (como el ID de publicidad), la dirección IP y datos de interacción con los anuncios para mostrar y medir anuncios, de acuerdo con la <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>. En el Espacio Económico Europeo, el Reino Unido y Suiza, la app muestra primero un formulario de consentimiento (Google UMP) y solo pide anuncios si lo aceptas. Puedes restablecer o desactivar el ID de publicidad en los ajustes de Android. AppsHidder no envía a AdMob tu PIN ni la lista de apps que proteges.</p>
+
+<h2>Niños</h2>
+<p>AppsHidder no está dirigida a menores de 13 años y no recopila a propósito información de menores.</p>
+
+<h2>Conservación y eliminación</h2>
+<p>Como no guardamos tus datos en ningún servidor, no hay nada que borrar por nuestra parte. Al desinstalar la app o borrar sus datos se elimina todo lo que guardó en tu dispositivo.</p>
+
+<h2>Cambios a esta política</h2>
+<p>Si cambia la forma en que la app usa la información, actualizaremos esta página y la fecha de arriba.</p>
+
+<h2>Contacto</h2>
+<p>Preguntas o solicitudes sobre privacidad: <a href="mailto:flooddesarrollo@gmail.com">flooddesarrollo@gmail.com</a></p>
+</body>
+</html>
