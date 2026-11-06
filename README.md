@@ -7,5 +7,6 @@ Una carpeta por proyecto:
 | Proyecto | Política de privacidad | Soporte |
 |---|---|---|
 | AppsHidder | https://thegeneralzodxx.github.io/legal/appshidder/privacidad.html | https://thegeneralzodxx.github.io/legal/appshidder/ |
+| petReport | https://thegeneralzodxx.github.io/legal/petreport/privacidad.html | https://thegeneralzodxx.github.io/legal/petreport/ |
 
 Contacto: flooddesarrollo@gmail.com
